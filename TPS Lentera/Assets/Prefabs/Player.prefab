@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 866923622}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d080a149bb49ee4a95737a7079fee01, type: 2}
+  - {fileID: 2100000, guid: aa9669890b9da904294e62d04005b695, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,10 +115,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fea0f54050313ba4e9d2ea7e5e644ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 2
-  jumpHeight: 1
-  gravityValue: -9.81
-  rotationSpeed: 0.81
+  _playerSpeed: 5
+  _jumpHeight: 1
+  _gravityValue: -9.81
+  _rotationSpeed: 5
+  _health: 5
+  damage: 1
 --- !u!143 &866923623
 CharacterController:
   m_ObjectHideFlags: 0

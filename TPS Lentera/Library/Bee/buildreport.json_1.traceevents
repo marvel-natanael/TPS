@@ -1,0 +1,525 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676965947692662, "dur": 10771075, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965947692896, "dur": 4720, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965947697619, "dur": 185663, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965947883284, "dur": 4489669, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965952372956, "dur": 6088447, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965958461404, "dur": 2332, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965958464259, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676965951416125, "dur": 935263, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676965951417145, "dur": 42594, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676965952333785, "dur": 4904, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676965952338693, "dur": 12686, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676965952339521, "dur": 11255, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676965952356236, "dur": 1643, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676965952355268, "dur": 2647, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965958464363, "dur": 7310, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676965952448222, "dur":1243, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965952449475, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676965952449550, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676965952449566, "dur":447, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676965952450068, "dur":523, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965952450591, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393474, "dur":192, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393666, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393674, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393677, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393686, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393688, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393696, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393698, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393705, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393707, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393715, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393717, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393724, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393726, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393732, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393734, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393740, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393751, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958393763, "dur":1517, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676965952450437, "dur":245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965952450682, "dur":1764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965952452447, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676965952452485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965952455603, "dur":265014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676965952720638, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676965952720706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965952720714, "dur":1357933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676965954078662, "dur":214121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954292786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954292811, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954293556, "dur":46853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954340413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954340418, "dur":46787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954387218, "dur":16729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954403951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954403962, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954406123, "dur":113206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954519334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954519342, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954521453, "dur":20349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954541805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954541815, "dur":8066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954549892, "dur":77646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954627542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954627548, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954628277, "dur":68721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954697002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954697008, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954698040, "dur":58062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954756106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954756113, "dur":12338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954768463, "dur":43925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954812393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954812402, "dur":8230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954820646, "dur":19306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954839955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954839960, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954846842, "dur":92668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954939513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954939518, "dur":4089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954943618, "dur":34842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954978465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965954978474, "dur":7601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965954986091, "dur":62211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955048308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965955048315, "dur":8705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955057033, "dur":58109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955115146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965955115153, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955116310, "dur":26728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955143045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965955143054, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955144250, "dur":23917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955168171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965955168178, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955169079, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955169907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965955169914, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955171020, "dur":113871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955284896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965955284903, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955288052, "dur":186255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955474311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965955474316, "dur":14760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965955489091, "dur":630598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965956119693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956119726, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965956121932, "dur":818831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965956940767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956940775, "dur":5943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676965956946731, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676965956946887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956947118, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676965956949588, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676965956949603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956949608, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676965956950762, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1676965956950854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956950859, "dur":8847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1676965956959717, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676965956959731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956959736, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676965956960584, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676965956960596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956960600, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676965956961400, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676965956961420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956961425, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676965956962416, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1676965956962434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956962439, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1676965956964428, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676965956964503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676965956964507, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676965956965108, "dur":1428353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965952450266, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965952450632, "dur":1783, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965952452424, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676965952452431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965952454048, "dur":331, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676965952454385, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676965952454408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965952456118, "dur":11995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676965952468116, "dur":368645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676965952836764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965952836770, "dur":17313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676965952854100, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676965952854138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965952854146, "dur":1224822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676965954078983, "dur":104974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954183962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954184780, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954185576, "dur":185642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954371222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954371227, "dur":15966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954387213, "dur":204967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954592184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954592192, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954593289, "dur":37903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954631196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954631201, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954631951, "dur":131183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954763138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954763143, "dur":6182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954769349, "dur":61480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954830835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954830844, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954831858, "dur":37758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954869621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954869628, "dur":16321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954885960, "dur":26485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954912450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954912457, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954913589, "dur":42197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954955788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965954955792, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965954958040, "dur":83683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955041728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965955041736, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955043025, "dur":86956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955129985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965955129993, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955131414, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955132223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965955132232, "dur":6176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955138426, "dur":55096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955193525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965955193561, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965955198218, "dur":1542170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965956740391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965956740396, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965956742612, "dur":200585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965956943200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965956943206, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965956946608, "dur":39690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965956986304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676965956986314, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676965956987170, "dur":1406288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965952450393, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965952450674, "dur":1744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965952452424, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676965952452476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965952455852, "dur":134462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676965952590337, "dur":160232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676965952750577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965952750589, "dur":103723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676965952854327, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1676965952854354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965952854358, "dur":47370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1676965952901747, "dur":1748930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676965954650680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954650685, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676965954652211, "dur":60361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954712577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954712585, "dur":8124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954720725, "dur":31228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954751958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954751966, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954753793, "dur":31340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954785138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954785146, "dur":9605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954794767, "dur":44690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954839462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954839472, "dur":5808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954845293, "dur":24323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954869621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954869628, "dur":12971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954882612, "dur":24018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954906634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954906640, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954907626, "dur":48149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954955779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954955784, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954958029, "dur":23190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954981225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965954981234, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965954986304, "dur":31271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955017581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955017589, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955018632, "dur":102545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955121182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955121190, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955122571, "dur":35374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955158001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955158011, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955158862, "dur":1820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955160687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955160700, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955163513, "dur":1832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955165349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955165358, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955166259, "dur":27263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955193525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955193566, "dur":4654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955198268, "dur":125539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955323812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955323820, "dur":10087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955333921, "dur":36323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955370290, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955370307, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955371227, "dur":38865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955410096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965955410102, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965955411136, "dur":1102362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965956513502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965956513507, "dur":49390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965956562932, "dur":1540047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965958102983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676965958102988, "dur":43056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676965958146060, "dur":247406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965952450562, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965952450689, "dur":1772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965952452461, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676965952452506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965952457534, "dur":1621059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676965954078611, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1676965954078650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965954078861, "dur":230612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1676965954309485, "dur":105391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954414880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965954414886, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954416412, "dur":188157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954604573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965954604581, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954605499, "dur":242985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954848489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965954848498, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954850562, "dur":30195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954880762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965954880771, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954882990, "dur":23639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954906633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965954906639, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965954907670, "dur":187473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955095149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965955095157, "dur":7250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955102427, "dur":863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955103294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965955103301, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955107059, "dur":86460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955193523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965955193528, "dur":4908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955198448, "dur":110064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955308517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965955308525, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955309891, "dur":155259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955465154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965955465166, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955466713, "dur":42934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955509653, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965955509663, "dur":4939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965955514617, "dur":647205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965956161829, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965956161841, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965956162653, "dur":689878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965956852535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965956852540, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965956853463, "dur":136542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965956990008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676965956990013, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676965956990996, "dur":1402464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965952450675, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965952450676, "dur":1818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965952452494, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676965952452532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965952465737, "dur":124572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676965952590330, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676965952590379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965952590400, "dur":130225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676965952720640, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676965952720669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965952721014, "dur":116465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676965952837497, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676965952837533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965952837542, "dur":64131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676965952901694, "dur":5460524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676965958362222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676965958362226, "dur":31175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676965958393427, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1676965958393431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965952450755, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965952450755, "dur":1661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965952452424, "dur":384678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1676965952837106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965952853485, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1676965952854524, "dur":1570042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954424569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954424792, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954425955, "dur":93374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954519334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954519342, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954521465, "dur":19428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954540896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954540902, "dur":8651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954549569, "dur":24910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954574515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954574521, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954575595, "dur":47763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954623362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954623367, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954624780, "dur":67197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954691982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954691990, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954693032, "dur":61532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954754569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954754576, "dur":13544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954768132, "dur":44257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954812393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954812402, "dur":8217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954820636, "dur":36874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954857514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954857584, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954858403, "dur":25640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954884047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954884055, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954885697, "dur":47597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954933297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965954933301, "dur":9576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965954942975, "dur":112731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965955055711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965955055719, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965955057384, "dur":296251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965955353640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965955353661, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965955354950, "dur":111041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965955465997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965955466005, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965955467462, "dur":1308483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965956775948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965956775954, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965956777242, "dur":144027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965956921272, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965956921278, "dur":25544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676965956946839, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1676965956946863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965956946895, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1676965956949804, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676965956949818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965956949824, "dur":9267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676965956959107, "dur":15189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676965956974300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676965956974305, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676965956975094, "dur":1418365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965952450894, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965952450894, "dur":1567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965952452461, "dur":384331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676965952836796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965952836908, "dur":17205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676965952854127, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1676965952854161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965952854165, "dur":219801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1676965953073982, "dur":1298412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676965954372396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954372399, "dur":14987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676965954387398, "dur":147551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954534954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954534961, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954536026, "dur":33849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954569880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954569887, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954571467, "dur":40494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954611965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954611970, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954612846, "dur":62102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954674953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954674961, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954676219, "dur":28648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954704870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954704875, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954705748, "dur":48649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954754445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954754455, "dur":13633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954768100, "dur":17983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954786086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954786090, "dur":8672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954794773, "dur":45597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954840373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954840376, "dur":6332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954846724, "dur":35007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954881734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954881740, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954882954, "dur":49684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954932642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954932647, "dur":9469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954942131, "dur":40995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954983130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965954983135, "dur":8433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965954991583, "dur":56806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955048392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965955048397, "dur":8675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955057088, "dur":102072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955159163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965955159171, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955160065, "dur":31188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955191258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965955191265, "dur":7272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955198548, "dur":224105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955422657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965955422662, "dur":5196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965955427868, "dur":2687454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965958115326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676965958115331, "dur":29350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676965958144697, "dur":248776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965952451029, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965952451030, "dur":1416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965952452446, "dur":278859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1676965952731309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965952731318, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1676965952732614, "dur":104120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1676965952836740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965952836769, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1676965952837498, "dur":19897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676965952857399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965952857404, "dur":44214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676965952901647, "dur":1595529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954497180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954497210, "dur":6694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954503931, "dur":33121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954537056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954537064, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954538077, "dur":70204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954608286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954608294, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954609347, "dur":106834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954716185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954716190, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954720945, "dur":33457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954754451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954754458, "dur":13595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954768070, "dur":33214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954801289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954801296, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954802470, "dur":67728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954870201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954870204, "dur":12517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954882731, "dur":37305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954920040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954920048, "dur":9945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954930007, "dur":45937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954975949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965954976012, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965954978261, "dur":200071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965955178337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965955178345, "dur":19579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965955197938, "dur":103474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965955301417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965955301424, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965955302533, "dur":149480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965955452017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965955452023, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965955453201, "dur":2269239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TPS Lentera_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965957722444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676965957722449, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TPS Lentera_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676965957724782, "dur":668697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676965958397052, "dur":1880, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676965958471757, "dur": 626, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676965958464247, "dur": 8179, "ph": "X", "name": "Write chrome-trace events", "args": {} },
