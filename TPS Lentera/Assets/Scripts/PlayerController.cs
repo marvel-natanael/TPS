@@ -5,7 +5,6 @@ public class PlayerController : Controller
 {
     private bool _groundedPlayer;
     private PlayerInput _playerInput;
-
     private InputAction _jumpAction;
     private InputAction _moveAction;
     private InputAction _shootAction;
@@ -27,38 +26,28 @@ public class PlayerController : Controller
 
     private void OnEnable()
     {
-        _shootAction.performed += _ => Attack();
+        _shootAction.performed += _ => DoAttack();
     }
 
     private void OnDisable()
     {
-        _shootAction.performed -= _ => Attack();
+        _shootAction.performed -= _ => DoAttack();
     }
 
     void FixedUpdate()
     {
-        CheckForGrounded();
         Jump();
-        Move();
-        Rotate();
+        MoveObj();
+        RotateObj(_cameraTransForm.eulerAngles.y, _rotationSpeed);
         Die();
     }
 
-    protected override void Die()
+    public override void Die()
     {
         if (Health <= 0)
         {
             onPlayerDied?.Invoke();
             Destroy(gameObject);
-        }
-    }
-
-    private void CheckForGrounded()
-    {
-        _groundedPlayer = _controller.isGrounded;
-        if (_groundedPlayer && _playerVelocity.y < 0)
-        {
-            _playerVelocity.y = 0f;
         }
     }
 
@@ -70,20 +59,19 @@ public class PlayerController : Controller
         }
     }
 
-    protected override void Move()
+    public override void MoveObj()
     {
         Vector2 input = _moveAction.ReadValue<Vector2>();
-        Vector3 move = new Vector3(input.x, 0, input.y);
+        Vector3 moveVector = new Vector3(input.x, 0, input.y);
 
-        move = move.x * _cameraTransForm.right.normalized + move.z * _cameraTransForm.forward.normalized;
-        move.y = 0f;
+        moveVector = moveVector.x * _cameraTransForm.right.normalized + moveVector.z * _cameraTransForm.forward.normalized;
+        moveVector.y = 0f;
 
-        base.Move(move);
+        base.MoveObj(moveVector);
     }
 
-    protected override void Attack()
+    public override void DoAttack()
     {
-        Gun gun = GetComponentInChildren<Gun>();
-        gun.ShootGun(_cameraTransForm.position, _cameraTransForm.forward);
+        base.DoAttack(_cameraTransForm.position, _cameraTransForm.forward);
     }
 }

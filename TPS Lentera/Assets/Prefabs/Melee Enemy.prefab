@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 8757794037414461835}
   - component: {fileID: 866923623}
   - component: {fileID: 6713390967625628871}
+  - component: {fileID: 7976360262901346423}
+  - component: {fileID: 1244060276686137368}
+  - component: {fileID: 1446998081380981483}
   m_Layer: 0
   m_Name: Melee Enemy
   m_TagString: Melee Enemy
@@ -138,7 +141,47 @@ MonoBehaviour:
   _rotationSpeed: 0.81
   Health: 2
   Damage: 1
-  target: {x: 0, y: 0, z: 0}
+  _cameraTransForm: {fileID: 0}
+  _target: {x: 0, y: 0, z: 0}
+--- !u!114 &7976360262901346423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8757794037414461832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86236fb695d14fe4981a3e2c8a0be2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 2
+  _gravityValue: -9.81
+--- !u!114 &1244060276686137368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8757794037414461832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7022011fab1f94fb2911b68692ed9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 2
+--- !u!114 &1446998081380981483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8757794037414461832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f966113de3c8624688835a8a586fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8757794037511167383
 GameObject:
   m_ObjectHideFlags: 0

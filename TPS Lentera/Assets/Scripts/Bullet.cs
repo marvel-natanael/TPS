@@ -6,13 +6,15 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField]
     private float _destroyDelay = 3f;
-    [SerializeField]
-    private float _speed = 30f;
-
+    private Move _move;
     public int damage { get; set; }
-
     public Vector3 target { get; set; }
-    public bool hit { get; set; }
+    public bool Hit { get; set; }
+
+    private void Awake()
+    {
+        _move = GetComponent<Move>();
+    }
 
     private void OnEnable()
     {
@@ -21,16 +23,7 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        Move(target);
-    }
-
-    private void Move(Vector3 targetPos)
-    {
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, _speed * Time.deltaTime);
-        if (!hit && Vector3.Distance(transform.position, target) < 0.1f)
-        {
-            Destroy(gameObject);
-        }
+        MoveObj();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -41,5 +34,19 @@ public class Bullet : MonoBehaviour
         {
             target.TakeDamage(damage);
         }
+    }
+
+    public void MoveObj(Vector3 movePos)
+    {
+        _move.MoveObj(movePos);
+        if (!Hit && Vector3.Distance(transform.position, target) < 0.1f)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void MoveObj()
+    {
+        MoveObj(target);
     }
 }

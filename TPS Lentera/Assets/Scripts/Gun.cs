@@ -1,40 +1,31 @@
 using UnityEngine.InputSystem;
 using UnityEngine;
 
-public class Gun : MonoBehaviour
+public class Gun : MonoBehaviour, Weapon
 {
+    private Shoot _shoot;
+    [SerializeField]
     private Transform _gunPointTransform;
-
     [SerializeField]
     private GameObject _bulletPrefab;
+    [SerializeField]
+    private int _damage;
+
+    public int damage { get; private set; }
+
 
     private void Awake()
     {
-        _gunPointTransform = gameObject.transform.GetChild(0).transform;
+        _shoot = GetComponent<Shoot>();
     }
 
-    private void Shoot(Vector3 originShoot, Vector3 targetShoot, int damage)
+    public void Attack(int damage)
     {
-        RaycastHit hit;
-        GameObject bulletObj = GameObject.Instantiate(_bulletPrefab, _gunPointTransform.position, Quaternion.identity);
-        Bullet bullet = bulletObj.GetComponent<Bullet>();
-
-        if (Physics.Raycast(originShoot, targetShoot, out hit, Mathf.Infinity))
-        {
-            bullet.damage = damage;
-            bullet.target = hit.point;
-            bullet.hit = true;
-        }
-        else
-        {
-            bullet.target = originShoot + targetShoot * 25f;
-            bullet.hit = false;
-        }
+        damage = _damage;
+        _shoot.ShootObj(_bulletPrefab, _gunPointTransform, damage);
     }
-
-    public void ShootGun(Vector3 originShoot, Vector3 targetShoot)
+    public void Setup(Vector3 originShoot, Vector3 targetShoot)
     {
-        int damage = GetComponentInParent<Controller>().GetDamage();
-        Shoot(originShoot, targetShoot, damage);
+        _shoot.SetTarget(originShoot, targetShoot);
     }
 }

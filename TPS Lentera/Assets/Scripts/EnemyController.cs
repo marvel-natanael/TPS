@@ -5,29 +5,17 @@ using UnityEngine;
 public class EnemyController : Controller
 {
     [SerializeField]
-    private Vector3 target;
+    private Vector3 _target;
 
     protected virtual void FixedUpdate()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform.position;
-        if (target != null)
+        _target = GameObject.FindGameObjectWithTag("Player").transform.position;
+        if (_target != null)
         {
-            Move();
-            Rotate();
+            Vector3 targetPos = transform.TransformDirection(_target - transform.position);
+            MoveObj(targetPos);
+            RotateObj(_target);
             Die();
         }
-    }
-
-    protected override void Move()
-    {
-        Vector3 targetPos = transform.TransformDirection(target - transform.position);
-        base.Move(targetPos);
-    }
-
-    protected override void Rotate()
-    {
-        Vector3 targetAngle = (target - transform.position).normalized;
-        Quaternion rotation = Quaternion.LookRotation(targetAngle);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * _rotationSpeed);
     }
 }

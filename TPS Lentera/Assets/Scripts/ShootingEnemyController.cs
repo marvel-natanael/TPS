@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class ShootingEnemyController : EnemyController
 {
-    private Gun _gun;
-
     private void Awake()
     {
-        _gun = GetComponentInChildren<Gun>();
-        InvokeRepeating("Attack", 3.0f, 1.5f);
+        InvokeRepeating("DoAttack", 3.0f, 1.5f);
         Init();
     }
 
@@ -18,8 +15,8 @@ public class ShootingEnemyController : EnemyController
         base.FixedUpdate();
     }
 
-    protected override void Attack()
+    public override void DoAttack()
     {
-        _gun.ShootGun(transform.position, transform.forward);
+        base.DoAttack(transform.position, transform.forward);
     }
 }
